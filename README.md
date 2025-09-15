@@ -1,4 +1,10 @@
 <!-- Profile README for KaveeshJeffry -->
+- 🧭 **Focus**: Flutter, Spring Boot, REST APIs, PostgreSQL, Firebase
+- 🏷️ **Currently**: Building multi‑app systems (Driver, Client, Vendor), SSE live tracking, notifications
+- 🌍 **Based in**: Sri Lanka
+- 🎯 **Goals**: Ship polished, production‑ready apps and lead projects end‑to‑end
+
+
 ---
 
 
