@@ -1,3 +1,40 @@
+name: generate-snake
+
+
+on:
+schedule:
+- cron: '0 0 * * *' # daily
+workflow_dispatch:
+
+
+# Needed so the action can push to the repo
+permissions:
+contents: write
+
+
+jobs:
+build:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v4
+
+
+- uses: Platane/snk@v3
+with:
+github_user_name: KaveeshJeffry
+outputs: |
+dist/github-contribution-grid-snake.svg
+dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+
+- name: Publish snake to output branch
+uses: crazy-max/ghaction-github-pages@v4
+with:
+target_branch: output
+build_dir: dist
+env:
+GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```yaml
 name: Generate snake
 
 
