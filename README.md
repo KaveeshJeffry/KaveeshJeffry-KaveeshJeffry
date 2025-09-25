@@ -1,25 +1,29 @@
-<!-- Profile README for KaveeshJeffry -->
+<!-- Advanced Profile README for KaveeshJeffry -->
 
+<!-- HERO --------------------------------------------------------------->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=1200&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Kaveesh+Jeffry+Vershan+%F0%9F%91%8B;Flutter+%2B+Spring+Boot+Developer;I+build+scalable+web+%26+mobile+apps" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=30&pause=1200&center=true&vCenter=true&width=980&lines=Hi%2C+I'm+Kaveesh+Jeffry+Vershan+%F0%9F%91%8B;Flutter+%2B+Spring+Boot+Developer;I+build+scalable+web+%26+mobile+apps" alt="Typing" />
 </p>
 
 <p align="center">
-  <a href="mailto:kaveeshjeffry@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-kaveeshjeffry%40gmail.com-informational?style=for-the-badge"></a>
+  <a href="mailto:kaveeshjeffry@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-kaveeshjeffry%40gmail.com-6C5CE7?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/kaveeshjeffry" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-KaveeshJeffry-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=KaveeshJeffry&style=for-the-badge&color=6C5CE7"/>
+  <img alt="Followers" src="https://img.shields.io/github/followers/KaveeshJeffry?style=for-the-badge&color=6C5CE7"/>
+  <img alt="Stars" src="https://img.shields.io/github/stars/KaveeshJeffry?style=for-the-badge&color=6C5CE7"/>
 </p>
 
 ---
 
 ### 👨‍💻 About me
 - 🧭 **Focus**: Flutter, Spring Boot, REST APIs, PostgreSQL, Firebase  
-- 🏷️ **Currently**: Building multi-app systems (Driver, Client, Vendor), SSE live tracking, notifications  
+- 🏷️ **Currently**: WE App ecosystem (Client/Driver/Vendor), SSE live tracking, notifications  
 - 🌍 **Based in**: Sri Lanka  
-- 🎯 **Goals**: Ship polished, production-ready apps and lead projects end-to-end  
+- 🎯 **Goals**: Lead full-stack projects end-to-end; ship reliable, performant apps  
 
 ---
 
-### 🧰 Tech stack
+### 🧰 Toolbox
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="36" alt="Flutter"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="36" alt="Dart"/>
@@ -35,50 +39,54 @@
 
 ---
 
-### 🔥 Featured projects
-> Pin these 6 on your profile for best impact.
+### ⭐ Highlights
+- 🚕 **WE App** – Multi-app ride & services platform (Client/Driver/Vendor) with SSE live tracking & notifications  
+- 🛒 **Foodie Mobile** – Flutter + REST + token auth; clean architecture & provider  
+- 🧑‍💼 **Task Manager (Web)** – Role-based tasks, analytics and export  
+- 📘 **E-book Site** – Simple, responsive, SEO-ready  
+- 📐 **Perimeter Calculator** – Java fundamentals showcased  
+- 🧩 **Portfolio** – Components, animations, case studies  
 
-- 🚕 **WE App** – Multi-app ecosystem (Client, Driver, Vendor) with live ride tracking, SSE, push notifications  
-- 🛒 **Foodie E-commerce Mobile App** – Flutter + REST API  
-- 🧑‍💼 **Employee Task Management (Web)** – PHP  
-- 📘 **E-book Website** – CSS/HTML  
-- 📐 **Perimeter Calculator** – Java  
-- 🧩 **My Portfolio** – Personal site & components  
-
-> Add short bullets in each repo’s README + upload a Social Preview banner (1280×640) from repo **Settings → Social preview**.
+> Pin your top repositories (Profile → **Customize** → Pinned) and add Social preview banners (1280×640) in each repo’s **Settings → Social preview**.
 
 ---
 
-### 📊 GitHub stats
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=KaveeshJeffry&show_icons=true&theme=transparent" alt="Stats" />
-</p>
+### 📊 Stats at a glance
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=KaveeshJeffry&show_icons=true&theme=transparent" alt="Stats" />
+    </td>
+    <td>
+      <a href="https://streak-stats.demolab.com/demo/">
+        <img src="https://streak-stats.demolab.com?user=KaveeshJeffry&theme=transparent&hide_border=true" alt="Streak" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KaveeshJeffry&layout=compact&theme=transparent" alt="Top Langs" />
+    </td>
+  </tr>
+</table>
 
-### 🔥 Streak
-[![GitHub Streak](https://streak-stats.demolab.com?user=KaveeshJeffry&theme=transparent&hide_border=true)](https://streak-stats.demolab.com/demo/)
+<details>
+<summary><b>📈 Activity graph</b> (click to expand)</summary>
 
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KaveeshJeffry&layout=compact&theme=transparent" alt="Top Langs" />
-</p>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=KaveeshJeffry&radius=14&theme=react-dark&area=true&hide_border=true" alt="activity-graph"/>
 
----
-
-### 🏆 Trophies
-<p>
-  <img src="https://github-profile-trophy.vercel.app/?username=KaveeshJeffry&theme=onestar&margin-w=8&margin-h=8" alt="trophies"/>
-</p>
+</details>
 
 ---
 
 ### 🤝 Connect
-- 💼 LinkedIn: [linkedin.com/in/kaveeshjeffry](https://www.linkedin.com/in/kaveeshjeffry)  
-- ✉️ Email: [kaveeshjeffry@gmail.com](mailto:kaveeshjeffry@gmail.com)
+- 💼 LinkedIn: <a href="https://www.linkedin.com/in/kaveeshjeffry">linkedin.com/in/kaveeshjeffry</a>  
+- ✉️ Email: <a href="mailto:kaveeshjeffry@gmail.com">kaveeshjeffry@gmail.com</a>
 
 ---
 
 ### 🐍 Contributions
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KaveeshJeffry/KaveeshJeffry-KaveeshJeffry/output/github-contribution-grid-snake-dark.svg?v=1">
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/KaveeshJeffry/KaveeshJeffry-KaveeshJeffry/output/github-contribution-grid-snake.svg?v=1">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KaveeshJeffry/KaveeshJeffry-KaveeshJeffry/output/github-contribution-grid-snake-dark.svg?v=3">
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/KaveeshJeffry/KaveeshJeffry-KaveeshJeffry/output/github-contribution-grid-snake.svg?v=3">
 </picture>
-
