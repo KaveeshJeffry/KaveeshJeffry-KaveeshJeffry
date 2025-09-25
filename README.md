@@ -78,6 +78,8 @@
 </details>
 
 ---
+### 🔥 Streak
+[![GitHub Streak](https://streak-stats.demolab.com?user=KaveeshJeffry&theme=transparent&hide_border=true)](https://streak-stats.demolab.com/demo/)
 
 ### 🤝 Connect
 - 💼 LinkedIn: <a href="https://www.linkedin.com/in/kaveeshjeffry">linkedin.com/in/kaveeshjeffry</a>  
