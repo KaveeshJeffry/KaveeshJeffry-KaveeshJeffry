@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="mailto:kaveeshjeffry@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-kaveeshjeffry%40gmail.com-6C5CE7?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="mailto:kaveeshgg@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-kaveeshjeffry%40gmail.com-6C5CE7?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/kaveeshjeffry" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-KaveeshJeffry-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=KaveeshJeffry&style=for-the-badge&color=6C5CE7"/>
   <img alt="Followers" src="https://img.shields.io/github/followers/KaveeshJeffry?style=for-the-badge&color=6C5CE7"/>
@@ -81,7 +81,7 @@
 
 ### 🤝 Connect
 - 💼 LinkedIn: <a href="https://www.linkedin.com/in/kaveeshjeffry">linkedin.com/in/kaveeshjeffry</a>  
-- ✉️ Email: <a href="mailto:kaveeshjeffry@gmail.com">kaveeshjeffry@gmail.com</a>
+- ✉️ Email: <a href="mailto:kaveesh@gmail.com">kaveeshjeffry@gmail.com</a>
 
 ---
 
