@@ -1,7 +1,7 @@
 name: metrics
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 8 * * *'   # daily 08:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -10,14 +10,24 @@ permissions:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: METRICS_CLASSIC_TOKEN   # <-- EXACT environment name
-    steps:
-      - name: Check env secret presence
-        run: test -n "${{ secrets.METRICS_TOKEN }}" && echo "Env secret OK" || (echo "Env secret MISSING" && exit 1)
+    # This must match your environment's name exactly
+    environment: METRICS_CLASSIC_TOKEN
 
-      - uses: lowlighter/metrics@v3.34
+    steps:
+      # Sanity check: fail early if the environment secret isn't visible
+      - name: Check env secret presence
+        run: |
+          if [ -n "${{ secrets.METRICS_CLASSIC_TOKEN }}" ]; then
+            echo "Env secret OK"
+          else
+            echo "Env secret MISSING"; exit 1
+          fi
+
+      - name: Generate metrics
+        uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}   # <-- environment secret
+          # Use the environment secret you created (must be a classic PAT ghp_…)
+          token: ${{ secrets.METRICS_CLASSIC_TOKEN }}
           user: KaveeshJeffry
           template: classic
           base: header, activity, community, repositories
