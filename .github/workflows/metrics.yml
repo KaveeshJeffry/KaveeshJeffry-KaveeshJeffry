@@ -10,23 +10,15 @@ permissions:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    # This must match your environment's name exactly
     environment: METRICS_CLASSIC_TOKEN
 
     steps:
-      # Sanity check: fail early if the environment secret isn't visible
       - name: Check env secret presence
-        run: |
-          if [ -n "${{ secrets.METRICS_CLASSIC_TOKEN }}" ]; then
-            echo "Env secret OK"
-          else
-            echo "Env secret MISSING"; exit 1
-          fi
+        run: test -n "${{ secrets.METRICS_CLASSIC_TOKEN }}" && echo "Env secret OK" || (echo "Env secret MISSING" && exit 1)
 
       - name: Generate metrics
         uses: lowlighter/metrics@v3.34
         with:
-          # Use the environment secret you created (must be a classic PAT ghp_…)
           token: ${{ secrets.METRICS_CLASSIC_TOKEN }}
           user: KaveeshJeffry
           template: classic
@@ -44,5 +36,6 @@ jobs:
           plugin_people: yes
           plugin_people_types: followers, following
           output_action: commit
-          committer_branch: metrics
+          committer_branch: main                 # <-- changed from "metrics"
           committer_message: "chore: update metrics"
+          filename: github-metrics.svg
