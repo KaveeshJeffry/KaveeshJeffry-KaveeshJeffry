@@ -10,14 +10,14 @@ permissions:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: METRICS_CLASSIC_TOKEN   # <-- must match your Environment name
+    environment: METRICS_CLASSIC_TOKEN   # <-- EXACT environment name
     steps:
       - name: Check env secret presence
         run: test -n "${{ secrets.METRICS_TOKEN }}" && echo "Env secret OK" || (echo "Env secret MISSING" && exit 1)
 
       - uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}   # secret inside that Environment
+          token: ${{ secrets.METRICS_TOKEN }}   # <-- environment secret
           user: KaveeshJeffry
           template: classic
           base: header, activity, community, repositories
